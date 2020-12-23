@@ -1,0 +1,103 @@
+body
+{
+    font-family:'Montserrat', sans-serif;
+
+    background-color: rgb(29, 29, 29);
+}
+
+#mainNav .navbar-brand
+{   
+    font-size: 1.5rem;
+    color: #831d1d
+}
+#mainNav .navbar-brand:hover
+{   
+    font-size: 1.6rem;
+    color: black;
+}
+#mainNav
+{
+    font-weight: bolder;
+    font-size: 15px;
+}
+#mainNav .nav-link:hover{
+    color: #5f2323;
+}
+#HeadingColor span
+{
+    color: #831d1d ;
+}
+#HeadingColor h1
+{
+    font-size: 5rem ;
+}
+@media (max-width: 1200px) {
+    #HeadingColor  h1 
+    {
+    
+    font-size: 2rem ;
+    }
+}
+@media (max-width: 576px){
+    #mainNav .navbar-brand
+{   
+    font-weight: lighter;
+    font-size: 1.5rem;
+    color: white;
+}
+}   
+#HeadingTwo span{
+    color: #831d1d ;
+    font-size:;
+    
+}
+@media (max-width:1200px){
+    #HeadingTwo h1
+    {
+       font-size: 2rem;
+    }
+}
+.booo
+{
+    border: 1px solid #947878;
+}
+
+.navbar.scrolled
+{
+    background: #945757;
+    transition: background 1s;
+}
+.container h1
+{
+    font-size: 65px;
+}
+
+hr.style-two{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(211, 151, 151, 0), rgba(255, 255, 255, 0.75), rgba(219, 217, 217, 0));
+}
+#Intro span{
+    color: #831d1d ;
+}
+
+.container-fluid.logo{
+    padding: 3% 0% 0% 5%;
+}
+
+#rules span{
+    color: #831d1d ;
+}
+#rules h1{
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+#rules li{
+    
+    font-size: 1.5em;
+    padding: 2% 0 0 0;
+}
+span{
+    color: #831d1d ;
+}
+}
